@@ -15,6 +15,7 @@ Install the database.
 * Create a user/role called granny by following command <pre><code> </code>CREATE USER granny WITH password 'granny';</pre>
 * Grant all privileges to the granny user/role by following command <pre><code> GRANT ALL PRIVILEGES ON DATABASE granny to granny; </code></pre>
 * Create a table by the following command <pre><code> CREATE TABLE phonebook(_id SERIAL PRIMARY KEY, name VARCHAR(32), address VARCHAR(64), phone VARCHAR(32), email VARCHAR(32));
+* Further instructions on the database use for node.js are [here](https://github.com/brianc/node-postgres/wiki)
  </code></pre>
 
 Get project into Webstorm
