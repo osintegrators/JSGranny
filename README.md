@@ -9,6 +9,7 @@ Download Stuff<br>
 <pre><code>sudo apt-get install git</code></pre>
 
 Install the database.
+* NOTE: You may need to setup trusted authentication for localhost. This is done by editing the [pg_hba.conf](http://www.postgresql.org/docs/devel/static/auth-pg-hba-conf.html) file.
 <pre><code> sudo apt-get install postgresql-9.1</code></pre>
 * make a user called postgres and Start the postgresql server. Documentation regarding this can be found [here](http://www.postgresql.org/docs/9.1/static/server-start.html)
 * Create a database called granny by following command <pre><code> </code>CREATE DATABASE granny;</pre>
