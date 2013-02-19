@@ -29,3 +29,7 @@ Get project into Webstorm
 * Simply Press Run at the top ... SS#3 ( You may need to specify app.js path on the system)
 * At this point your server should be running on http://localhost:3000/
 * Browse to that url in any browser.
+
+
+Without using Webstorm, after you checkout the project from command line. You can simply execute the command to get it to run.
+<pre><code> node app.js </code><pre>
