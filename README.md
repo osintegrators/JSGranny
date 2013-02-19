@@ -4,7 +4,7 @@ Installation Instructions with Webstorm
 Download Stuff<br>
 * Download Webstorm [here](http://download-ln.jetbrains.com/webide/WebStorm-5.0.4.tar.gz)<br>
 * Install node.js and npm with 
-<pre><code>sudo apt-get install npm node.js</code></pre>
+<pre><code>sudo apt-get install node.js npm</code></pre>
 * Install git 
 <pre><code>sudo apt-get install git</code></pre>
 * check out the application via command line 
