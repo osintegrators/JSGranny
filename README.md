@@ -19,13 +19,13 @@ Install the database.
 
 Get project into Webstorm
 * To open WebStorm, cd into the bin dir and execute <pre><code> sudo ./webstorm.sh </code></pre>
-* Open WebStorm and import from file system. 
 * Alternatively, you can just see the SS#2 and checkout directly into the IDE from Github. ( Ofcourse you need git and the plugin installed for this. See [here](http://www.jetbrains.com/webstorm/webhelp/using-github-integration.html) for help ) 
 * Simply Press Run at the top ... SS#3 ( You may need to specify app.js path on the system)
 * At this point your server should be running on http://localhost:3000/
 * Browse to that url in any browser.
 
-Without using Webstorm, 
+Without using Webstorm
+=======================
 * check out the application via command line 
 <pre><code>git clone https://github.com/osintegrators/JSGranny.git</code></pre>
 
