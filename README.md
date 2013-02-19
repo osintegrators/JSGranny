@@ -7,12 +7,6 @@ Download Stuff<br>
 <pre><code>sudo apt-get install node.js npm</code></pre>
 * Install git 
 <pre><code>sudo apt-get install git</code></pre>
-* check out the application via command line 
-<pre><code>git clone https://github.com/osintegrators/JSGranny.git</code></pre>
-* cd into the directory you checked it out in
-* cd into the project dir
-* You might need to do the step below. It worked for me without the package but I encountered an error while re-doing it.<br> install the needed node-gyp package globally with npm
-<pre><code> sudo npm install -g node-gyp </code></pre>
 
 Install the database.
 <pre><code> sudo apt-get install postgresql-9.1</code></pre>
@@ -24,12 +18,16 @@ Install the database.
  </code></pre>
 
 Get project into Webstorm
+* To open WebStorm, cd into the bin dir and execute <pre><code> sudo ./webstorm.sh </code></pre>
 * Open WebStorm and import from file system. 
 * Alternatively, you can just see the SS#2 and checkout directly into the IDE from Github. ( Ofcourse you need git and the plugin installed for this. See [here](http://www.jetbrains.com/webstorm/webhelp/using-github-integration.html) for help ) 
 * Simply Press Run at the top ... SS#3 ( You may need to specify app.js path on the system)
 * At this point your server should be running on http://localhost:3000/
 * Browse to that url in any browser.
 
+Without using Webstorm, 
+* check out the application via command line 
+<pre><code>git clone https://github.com/osintegrators/JSGranny.git</code></pre>
 
-Without using Webstorm, after you checkout the project from command line. You can simply execute the command to get it to run.
+after you checkout the project from command line. You can simply execute the command to get it to run.
 <pre><code> node app.js </code><pre>
