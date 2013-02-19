@@ -3,9 +3,8 @@
  */
 
 var pg = require('pg');
-var conString = "postgres://granny:granny@localhost:5432/granny"
-// if you have connection issues.. setup trusted authentication for postgres for localhost and uncomment the line below.
-// var conString = "tcp://postgres:5432@localhost/granny";
+// if you have connection issues.. setup trusted authentication for postgres for localhost.
+ var conString = "tcp://postgres:5432@localhost/granny";
 
 exports.index = function (req, res) {
     res.render('index');
